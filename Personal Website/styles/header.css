@@ -1,0 +1,45 @@
+
+
+.Header{
+
+  color:white;
+  height:200px;
+  display:flex;
+  flex-direction: row;
+  margin-top:20px;
+  justify-content: space-between;
+}
+
+
+
+
+
+.left-side{
+
+  margin-left:150px;
+  font-size:30px;
+  font-family: 'Poppins';
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+/* Style for each navigation item */
+nav ul li {
+  margin-right: 50px;
+}
+
+/* Style for navigation links */
+nav ul li a {
+ font-size:20px;
+  color: white;
+}
+
+

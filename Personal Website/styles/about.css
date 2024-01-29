@@ -1,0 +1,40 @@
+.about-page{
+  background-color: black;
+}
+
+p{
+  color:white;
+  font-family:'Poppins';
+  
+}
+
+.first,.second,.third{
+  font-size:25px;
+  width:500px;
+  margin-left:100px;
+  margin-top:100px;
+
+  line-height: 45px;
+}
+
+.welcome{
+  font-size:60px;
+  font-weight:bold;
+  text-align: center;
+  color:blanchedalmond;
+}
+
+img{
+  margin-bottom:20px;
+  width:600px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 200px 50px;
+  column-gap: 1000px;
+  
+  align-items: center;
+  margin-top:250px;
+
+}

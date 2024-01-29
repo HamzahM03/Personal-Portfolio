@@ -1,0 +1,45 @@
+p {
+  color: white;
+  margin: 0;
+  font-family: 'Poppins';
+  opacity: 0; /* Initially hide the text */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply fadeIn animation */
+}
+
+.intro {
+  margin-left: 130px;
+  display: inline-block;
+}
+
+.welcome {
+  font-size: 60px;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.sub {
+  font-size: 35px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(15, 123, 212);
+}
+
+.showcase {
+  width: 700px;
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+      opacity: 1; /* End with opacity 1 */
+  }
+}
+
+body{
+  background-color: black;
+}
